@@ -1,0 +1,147 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.tasks {
+    display: block;
+    max-height: 70vh;
+    max-width: 80vw;
+    overflow: auto;
+    box-sizing:border-box;
+    padding: 2vh 1vw;
+    margin: 2vh auto;
+}
+.recent-tasks {
+    margin: 0 auto;
+    padding: 0 0;
+}
+.links {
+    margin-bottom: 1vh;
+}
+.links > a, .tasks > div > a, .user > a, .home > a {
+    color: #636b6f;
+    padding: 0 2vw;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.tasks > div > a {
+    padding: 0;
+}
+.tasks > div {
+    /*display: block;*/
+    padding: 2vh 0;
+}
+.tasks-title {
+    font-size: 21px;
+    font-weight: 800;
+    margin: auto;
+}
+
+.completed {
+    text-decoration: line-through !important;
+}
+
+.delete {
+    color: darkred !important;
+    font-weight: 800;
+}
+
+.alert-success {
+    margin: 1em;
+    color: hotpink;
+    font-weight: 800;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+input[type="submit"] {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: inherit;
+    font-weight: 600 !important;
+    color: inherit;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+/*Scrollbar Settings*/
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+::-webkit-scrollbar-track {
+
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
