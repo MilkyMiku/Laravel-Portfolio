@@ -1,3 +1,12 @@
+@php
+    //get the full url
+    $url = url()->full();
+    //get the position of the last "/"
+    $pos = strrpos($url,"/");
+    //cut the string from 0 to the correct position
+    $upOneUrl = substr($url,0,$pos);
+@endphp
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -26,8 +35,10 @@
         </div>
     @endif
     @if (Route::currentRouteName() != 'welcome')
+
         <div class="top-left home">
             <a href="/">Home</a>
+            <a href="{{$upOneUrl}}">Back</a>
         </div>
     @endif
 

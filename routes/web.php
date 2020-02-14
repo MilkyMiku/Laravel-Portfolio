@@ -20,8 +20,9 @@ Auth::routes();
 Route::get('/', 'WelcomeController@index')->name('welcome');
 Route::get('/home', 'HomeController@index');
 Route::post('/tasks', 'TaskController@store');
-Route::get('/tasks', 'TaskController@index');
+Route::get('/tasks', 'TaskController@index')->name('tasks');
 Route::delete('/tasks/{task}', 'TaskController@delete');
 Route::put('/tasks/{task}', 'TaskController@update');
 Route::get('/tasks/{task}', 'TaskController@edit');
-
+Route::get('/blog', 'BlogController@index')->name('blog');
+route::get('/blog/{blog}', 'BlogController@show');

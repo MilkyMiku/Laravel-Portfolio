@@ -97,6 +97,11 @@ html, body {
 .m-b-md {
     margin-bottom: 30px;
 }
+
+.blog_content {
+    max-width: 60vw;
+    margin: auto;
+}
 input[type="submit"] {
     background-color: transparent;
     border-color: transparent;

@@ -6,9 +6,9 @@
     </div>
 
     <div class="links">
-        <a href="blog">Blog</a>
+        <a href="{{route('blog')}}">Blog</a>
         <a href="https://github.com/{{config('custom.github_username')}}">GitHub</a>
-        <a href="tasks">Tasks</a>
+        <a href="{{route('tasks')}}">Tasks</a>
     </div>
 
 

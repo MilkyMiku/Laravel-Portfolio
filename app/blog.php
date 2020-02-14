@@ -4,8 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Task extends Model
+class blog extends Model
 {
-
-    public bool $timestamps = false;
+    //
 }

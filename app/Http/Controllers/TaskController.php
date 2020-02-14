@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class TaskController extends Controller
 {
+    public function __construct()
+    {
+//        $this->middleware('auth');
+    }
+
     public function index()
     {
         $tasks = DB::table('tasks')->orderBy('id', 'desc')->get();
@@ -33,10 +38,8 @@ class TaskController extends Controller
         else {
             $task->completed_at = request('completed') ? now() : null;
         }
-
         $task->save();
-
-        return redirect('/tasks');
+        return redirect('/tasks');  
     }
     public function delete(Task $task) {
         try {
