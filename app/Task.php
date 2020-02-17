@@ -1,11 +1,11 @@
-<?php
+<?php /** @noinspection PhpHierarchyChecksInspection */
 
 namespace App;
+
 
 use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-
-    public bool $timestamps = false;
+    public $timestamps = false;
 }

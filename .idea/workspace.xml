@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fb44f1-e608-4d0b-bd86-dba5d46e0b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_10_153302_create_blogs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_12_180353_create_sessions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_02_12_181923_create_cache_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blogs.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blogs_view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/moo_kde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/moo_kde.xml" afterDir="false" />
+    <list default="true" id="07fb44f1-e608-4d0b-bd86-dba5d46e0b30" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/minimalist.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/minimalist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/minimalist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/minimalist.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/config/database.php" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/psy/psysh/test/VersionUpdater/GitHubCheckerTest.php&#10;/home/moo_kde/code/todo_final/config/database.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -206,6 +194,7 @@
       <workItem from="1581348424733" duration="7073000" />
       <workItem from="1581527728210" duration="3023000" />
       <workItem from="1581531884302" duration="1527000" />
+      <workItem from="1581932034802" duration="4626000" />
     </task>
     <servers />
   </component>
@@ -214,6 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="91" key="#Notifications" timestamp="1581183666270">
@@ -236,10 +227,10 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="537" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.858@0.0.1600.858" timestamp="1581348927990" />
-    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2" timestamp="1581284524895">
+    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2" timestamp="1581943520560">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2/0.0.1600.858@0.0.1600.858" timestamp="1581284524895" />
+    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2/0.0.1600.858@0.0.1600.858" timestamp="1581943520560" />
     <state width="740" height="206" key="GridCell.Tab.0.bottom" timestamp="1581197170497">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
@@ -276,9 +267,9 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="463" y="192" key="run.anything.popup/0.0.1600.858@0.0.1600.858" timestamp="1581249770521" />
-    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup" timestamp="1581529191881">
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup" timestamp="1581943563857">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup/0.0.1600.858@0.0.1600.858" timestamp="1581529191881" />
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup/0.0.1600.858@0.0.1600.858" timestamp="1581943563857" />
   </component>
 </project>

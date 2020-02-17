@@ -102,29 +102,51 @@ html, body {
     max-width: 60vw;
     margin: auto;
 }
-input[type="submit"] {
+a.btn.btn-link {
+    color: cadetblue;
+}
+input,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    border: 1px solid #a9a9a9;
+    /*color: inherit;*/
+}
+
+
+input[type="submit"], .btn-primary {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px transparent;
     background-color: transparent;
     border-color: transparent;
     font-family: inherit;
     font-weight: 600 !important;
     color: inherit;
+    text-decoration: underline;
 }
 input[type="submit"]:hover {
     cursor: pointer;
 }
+
+
+
 /*Scrollbar Settings*/
 ::-webkit-scrollbar {
   width: 2px;
   height: 5px;
 }
 ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 }
 ::-webkit-scrollbar-thumb {
 
     background: #666666;
-    border: 0px none #ffffff;
+    border: 0 none #ffffff;
     border-radius: 50px;
     height: 10px;
 }
@@ -137,7 +159,7 @@ input[type="submit"]:hover {
 ::-webkit-scrollbar-track {
 
     background: #e1e1e1;
-    border: 0px none #ffffff;
+    border: 0 none #ffffff;
     border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
