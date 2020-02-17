@@ -26,3 +26,4 @@ Route::put('/tasks/{task}', 'TaskController@update');
 Route::get('/tasks/{task}', 'TaskController@edit');
 Route::get('/blog', 'BlogController@index')->name('blog');
 route::get('/blog/{blog}', 'BlogController@show');
+route::get('/mehdi', 'MehdiController@index');
