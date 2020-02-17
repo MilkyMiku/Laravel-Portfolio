@@ -30,4 +30,8 @@
             <div><input type="submit" value="Add!"></div>
         </form>
     </div>
+
+    <div class="links tasks">
+        <a href="{{route('mehdi')}}">Disclaimer!</a>
+    </div>
 @endsection
