@@ -102,7 +102,7 @@ html, body {
     max-width: 60vw;
     margin: auto;
 }
-a.btn.btn-link {
+a.btn.btn-link, .dropdown-item {
     color: cadetblue;
 }
 input,
