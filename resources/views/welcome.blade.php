@@ -15,7 +15,7 @@
     <div class="tasks recent-tasks">
         <div class="tasks-title">Recent Tasks</div>
         @foreach($tasks as $task)
-            <div class="task"><a @if($task->completed_at)class="completed" @endif href="/tasks/{{$task->id}}">{{$task->description}}</a></div>
+            <div class="task"><a @if($task->completed_at)class="completed" @endif href="{{route('tasks') . '/' . $task->id}}">{{$task->description}}</a></div>
         @endforeach
     </div>
 

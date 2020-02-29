@@ -6,7 +6,7 @@
     <div class="tasks-title middle">Blog Posts</div>
     <div class="tasks">
         @foreach($blogs as $blog)
-            <div class="task"><a href="/blog/{{$blog->id}}">{{$blog->title}}</a></div>
+            <div class="task"><a href="{{route('blog') . '/' . $blog->id}}">{{$blog->title}}</a></div>
         @endforeach
     </div>
 {{--    <div class="new-task">--}}

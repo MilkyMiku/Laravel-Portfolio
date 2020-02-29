@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fb44f1-e608-4d0b-bd86-dba5d46e0b30" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/moo_kde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/moo_kde.xml" afterDir="false" />
+    <list default="true" id="07fb44f1-e608-4d0b-bd86-dba5d46e0b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/chatkit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/todo_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo_final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blogs.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,6 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
@@ -135,6 +138,11 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-chatkit-server" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/manager" />
+      <path value="$PROJECT_DIR$/vendor/shalvah/pusher-chatkit-laravel" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XXDbzoxcXZy1ekHKDoxVEvK3vO" />
@@ -156,7 +164,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,7 +181,7 @@
     <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -193,7 +201,14 @@
       <workItem from="1581527728210" duration="3023000" />
       <workItem from="1581531884302" duration="1527000" />
       <workItem from="1581932034802" duration="6777000" />
-      <workItem from="1581971156270" duration="995000" />
+      <workItem from="1581971156270" duration="2605000" />
+      <workItem from="1582060484654" duration="695000" />
+      <workItem from="1582705308549" duration="254000" />
+      <workItem from="1582797670475" duration="663000" />
+      <workItem from="1582798449361" duration="10000" />
+      <workItem from="1582817130121" duration="1632000" />
+      <workItem from="1582973031665" duration="7000" />
+      <workItem from="1583005811316" duration="2185000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581943577621</created>
@@ -216,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581971634357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1581972159952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581972159952</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +250,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="400" y="90" key="#Firefox_Settings" timestamp="1583007053647">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="400" y="90" key="#Firefox_Settings/0.0.1600.858@0.0.1600.858" timestamp="1583007053647" />
     <state x="399" y="91" key="#Notifications" timestamp="1581183666270">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
@@ -240,6 +266,10 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="0" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.858@0.0.1600.858" timestamp="1581290047781" />
+    <state x="198" y="100" width="400" height="659" key="#com.intellij.ide.util.MemberChooser" timestamp="1582705551801">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="198" y="100" width="400" height="659" key="#com.intellij.ide.util.MemberChooser/0.0.1600.858@0.0.1600.858" timestamp="1582705551801" />
     <state x="224" y="43" width="438" height="771" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581187830461">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
@@ -248,10 +278,14 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="537" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.858@0.0.1600.858" timestamp="1581348927990" />
-    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2" timestamp="1581971842179">
+    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2" timestamp="1581972159839">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2/0.0.1600.858@0.0.1600.858" timestamp="1581971842179" />
+    <state x="0" y="0" width="1600" height="858" key="CommitChangelistDialog2/0.0.1600.858@0.0.1600.858" timestamp="1581972159839" />
+    <state x="587" y="187" key="FileChooserDialogImpl" timestamp="1581974867803">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="587" y="187" key="FileChooserDialogImpl/0.0.1600.858@0.0.1600.858" timestamp="1581974867803" />
     <state width="740" height="206" key="GridCell.Tab.0.bottom" timestamp="1581197170497">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
@@ -276,14 +310,14 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="621" y="356" width="357" height="142" key="NewPhpFileDialog/0.0.1600.858@0.0.1600.858" timestamp="1581971419707" />
-    <state x="308" y="64" key="SettingsEditor" timestamp="1581348629876">
+    <state x="308" y="64" width="992" height="731" key="SettingsEditor" timestamp="1583007245094">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="308" y="64" key="SettingsEditor/0.0.1600.858@0.0.1600.858" timestamp="1581348629876" />
-    <state x="399" y="165" key="Vcs.Push.Dialog.v2" timestamp="1581971635891">
+    <state x="308" y="64" width="992" height="731" key="SettingsEditor/0.0.1600.858@0.0.1600.858" timestamp="1583007245094" />
+    <state x="399" y="165" key="Vcs.Push.Dialog.v2" timestamp="1581972161745">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="399" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.858@0.0.1600.858" timestamp="1581971635891" />
+    <state x="399" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.858@0.0.1600.858" timestamp="1581972161745" />
     <state x="516" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581197169256">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
@@ -292,9 +326,9 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="463" y="192" key="run.anything.popup/0.0.1600.858@0.0.1600.858" timestamp="1581249770521" />
-    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup" timestamp="1581972149989">
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup" timestamp="1583007496208">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup/0.0.1600.858@0.0.1600.858" timestamp="1581972149989" />
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup/0.0.1600.858@0.0.1600.858" timestamp="1583007496208" />
   </component>
 </project>
